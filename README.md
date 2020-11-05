@@ -26,6 +26,13 @@ To create a new token, click on the “Create New API Token” button. This will
 
 See [Github - encrypted-secrets](https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets) about Github Secrets.
 
+Set the Name and Value(listed in the API token) as shown below.
+
+|  Name  |  Value  |
+| ---- | ---- |
+|  KAGGLE_USERNAME  |  Listed in the API token  |
+|  KAGGLE_KEY  |  Listed in the API token  |
+
 ### Github Action([upload.yml](https://github.com/wakamezake/kaggle_submission_pipeline_template/blob/master/.github/workflows/upload.yml))
 Please refer to the following [Kernel-Metadata](https://github.com/Kaggle/kaggle-api/wiki/Kernel-Metadata) for parameter settings.
 See the following [Clean_URL#Slug](https://en.wikipedia.org/wiki/Clean_URL#Slug) to learn how to write a **slug**.
